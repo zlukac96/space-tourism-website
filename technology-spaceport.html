@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="technology-page">
+
+	<header>
+	
+		<div class="logo-container">
+			<img src="assets/shared/logo.svg" alt="logo"/>
+		</div>
+		<div class="header-horizontal-line"></div>
+		<div id="menuContainer" class="menu-container">
+			<a href="index.html">
+				<div>
+					<p class="navText text-uppercase"><span><b>00</b> </span>Home</p>
+				</div>
+			</a>
+			<a href="destination-moon.html">
+				<div>
+					<p class="navText text-uppercase"><span><b>01</b> </span>Destination</p>
+				</div>
+			</a>
+			<a href="crew-commander.html">
+				<div>
+					<p class="navText text-uppercase"><span><b>02</b> </span>Crew</p>
+				</div>
+			</a>
+			<a href="technology-vehicle.html">
+				<div class="activePageLine">
+					<p class="navText text-uppercase"><span><b>03</b> </span>Technology</p>
+				</div>
+			</a>
+		</div>
+		<div id="hamburgerButton" class="hamburger-button">
+			<img id="menuIcon" src="assets/shared/icon-hamburger.svg" alt="menu"/>
+			<img class="close-icon" id="closeIcon" src="assets/shared/icon-close.svg" alt="close"/>
+		</div>
+	
+	</header>
+	
+	<h5 class="text-uppercase main-title"><span>03</span> Space launch 101</h5>
+	
+	
+	<div class="main-content technology-content">
+		<div class="technology-menu">
+			<div class="technology-oval-container">
+				<a href="technology-vehicle.html">
+					<div class="technology-oval">
+						<h4>1</h4>
+					</div>
+				</a>
+				<a href="technology-spaceport.html">
+					<div class="technology-oval technology-oval-active">
+						<h4>2</h4>
+					</div>
+				</a>
+				<a href="technology-capsule.html">
+					<div class="technology-oval">
+						<h4>3</h4>
+					</div>
+				</a>
+			</div>
+		
+			<div class="technology-text">
+				<p class="navText text-uppercase light-blue">The terminology...</p>
+				<h3 class="text-uppercase">Spaceport</h3>
+				<p class="body-text">A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</p>
+			</div>
+		</div>
+		
+		<picture>
+			<source media="(max-width: 1200px)" srcset="assets/technology/image-spaceport-landscape.jpg">
+			<img class="technology-image" src="assets/technology/image-spaceport-portrait.jpg" alt="launch-vehicle"/>
+		</picture>
+		
+	</div>
+	
+	<script src="script/script.js"></script>
+</body>
+</html>

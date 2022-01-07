@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="destination-page">
+
+	<header>
+	
+		<div class="logo-container">
+			<img src="assets/shared/logo.svg" alt="logo"/>
+		</div>
+		<div class="header-horizontal-line"></div>
+		<div id="menuContainer" class="menu-container">
+			<a href="index.html">
+				<div>
+					<p class="navText text-uppercase"><span><b>00</b> </span>Home</p>
+				</div>
+			</a>
+			<a href="destination-moon.html">
+				<div class="activePageLine">
+					<p class="navText text-uppercase"><span><b>01</b> </span>Destination</p>
+				</div>
+			</a>
+			<a href="crew-commander.html">
+				<div>
+					<p class="navText text-uppercase"><span><b>02</b> </span>Crew</p>
+				</div>
+			</a>
+			<a href="technology-vehicle.html">
+				<div>
+					<p class="navText text-uppercase"><span><b>03</b> </span>Technology</p>
+				</div>
+			</a>
+		</div>
+		<div id="hamburgerButton" class="hamburger-button">
+			<img id="menuIcon" src="assets/shared/icon-hamburger.svg" alt="menu"/>
+			<img class="close-icon" id="closeIcon" src="assets/shared/icon-close.svg" alt="close"/>
+		</div>
+	
+	</header>
+	
+	<h5 class="text-uppercase main-title"><span>01</span> Pick your destination</h5>
+	
+	<div class="main-content">
+		
+		<img class="destination-planet" src="assets/destination/image-europa.png" alt="europa"/>
+		
+		
+		<div class="destination-main-text">
+			<div class="destination-nav-menu">
+				<a href="destination-moon.html">
+					<div>
+						<p class="navText text-uppercase">Moon</p>
+					</div>
+				</a>
+				<a href="destination-mars.html">
+					<div>
+						<p class="navText text-uppercase">Mars</p>
+					</div>
+				</a>
+				<a href="destination-europa.html">
+					<div class="activeNavItem">
+						<p class="navText text-uppercase">Europa</p>
+					</div>
+				</a>
+				<a href="destination-titan.html">
+					<div>
+						<p class="navText text-uppercase">Titan</p>
+					</div>
+				</a>
+			</div>
+			<h2 class="text-uppercase">Europa</h2>
+			<p class="body-text">The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+			<div class="destination-horizontal-line"></div>
+			<div class="destination-bottom-text">
+				<div>
+					<p class="text-uppercase subheading2 light-blue">Avg. distance</p>
+					<p class="text-uppercase subheading1">628 mil. km</p>
+				</div>
+				<div>
+					<p class="text-uppercase subheading2 light-blue">Est. travel time</p>
+					<p class="text-uppercase subheading1">3 years</p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<script src="script/script.js"></script>
+</body>
+</html>
